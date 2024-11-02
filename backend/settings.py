@@ -57,6 +57,9 @@ INSTALLED_APPS = [
     'djangocms_alias',
     'parler',
 
+    # links
+    'djangocms_link',
+
     # the next-gen text editor - optional, but used in most projects
     'djangocms_text',
 
@@ -78,6 +81,12 @@ INSTALLED_APPS = [
     'djangocms_frontend.contrib.image',
     'djangocms_frontend.contrib.tabs',
     'djangocms_frontend.contrib.utilities',
+
+    'taggit',
+    'taggit_autosuggest',
+    'meta',
+    'sortedm2m',
+    'djangocms_blog',
 ]
 
 MIDDLEWARE = [
